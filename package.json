@@ -1,0 +1,14 @@
+{
+  "name": "exercicios-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "@nicoledbianchin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
