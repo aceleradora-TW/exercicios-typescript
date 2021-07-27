@@ -1,7 +1,5 @@
 # O Tradutor Fizz Buzz
 
-  Tags: facil, logica
-
 O problema:
 
 - Se o número for divisível somente por `3`, o método retorna `Fizz`
