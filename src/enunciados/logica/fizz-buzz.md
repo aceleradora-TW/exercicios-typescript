@@ -27,19 +27,10 @@ if (numero % 2 == 0) {
 }
 ```
 
-Para converter um número inteiro para String, pode-se utilizar os métodos `Integer.toString()`,
-`String.valueOf` ou ainda `Objects.toString`:
+Para converter um número inteiro para String, pode-se utilizar os métodos `String()`
 
-```java
-String numero = Integer.parseInt(2); // numero == "2"
-
-// ou
-
-String outroNumero = String.valueOf(4); // outroNumero == "4"
-
-// ou
-
-String maisUmNumero = Objects.toString(5); // maisUmNumero == "5"
+```javascript
+const numero = String(2); // numero == "2"
 
 ```
 

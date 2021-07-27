@@ -15,7 +15,7 @@ describe('FizzBuzz', () => {
         expect(fizzBuzz(45)).toBe('FizzBuzz');
     });
     test('Se o número não é divisível por 3 ou 5, o método retorna o próprio número', () => {
-        expect(fizzBuzz(7)).toBe('7');
-        expect(fizzBuzz(2)).toBe('2');
+        expect(fizzBuzz(7)).toStrictEqual('7');
+        expect(fizzBuzz(2)).toStrictEqual('2');
     });
 })
