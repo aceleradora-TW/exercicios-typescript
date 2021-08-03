@@ -44,3 +44,14 @@ __Quarto passo: Implemente suas soluções__
 
 Tente fazer os testes passarem. Tudo que você precisa fazer é colocar sua ideia em prática no código e executar novamente o comando
 `npm run test`.
+
+__A ordem recomendada para a realização__, por ordem de dificuldade, é:
+
+- FizzBuzz
+- Soma dobrada
+- Contador de ocorrência
+- Objeto data
+- Votação
+- Números de armstrong
+
+

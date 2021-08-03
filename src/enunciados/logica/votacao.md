@@ -12,6 +12,8 @@ Caso haja mais votos `3`, retorne a string `Vencedor: 3`.
 
 Caso haja empate, retorne a string `Empate`. 
 
+Dica: podemos percorrer um array em javascript usando um `for` ou `foreach`.
+
 ## Casos de teste
 
     * Quando a entrada for "[1, 1, 1, 2, 3, 3, 2]", a saida deve ser "Vencedor: 1"
