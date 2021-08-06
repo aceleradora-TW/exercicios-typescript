@@ -18,10 +18,10 @@ exemplo, podemos usar o seguinte:
 ```javascript
 int numero = 4;
 
-if (numero % 2 == 0) {
-    System.out.println("O numero eh divisivel por 2");
+if (numero % 2 === 0) {
+    console.log("O numero eh divisivel por 2");
 } else {
-    System.out.println("O numero nao eh divisivel por 2");
+    console.log("O numero nao eh divisivel por 2");
 }
 ```
 
