@@ -5,13 +5,20 @@ function apuraVotacoa(votos) {
     var contador2 = 0
     var contador3 = 0
 
-    // votos.forEach(voto => {
-    //     if(voto === 1){
-    //     }
-    // });
+     votos.forEach(voto => {
+         if(voto === 1){
+             contador1++;
+         }
+         if(voto === 2){
+            contador2++;
+        }
+        if(voto === 3){
+            contador3++;
+        }
+     });
 
 
-    for (var i = 0; i <= votos.length; i++) {
+    /*for (var i = 0; i <= votos.length; i++) {
         if (votos[i] === 1) {
             contador1++;
         } else if (votos[i] === 2) {
@@ -19,7 +26,7 @@ function apuraVotacoa(votos) {
         } else if (votos[i] === 3) {
             contador3++;
         }
-    }
+    }*/
 
     if (contador1 > contador2 && contador1 > contador3) {
         return 'Vencedor: 1';
