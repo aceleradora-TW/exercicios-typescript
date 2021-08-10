@@ -11,8 +11,8 @@ próprio número. Confuso? Vejamos alguns exemplos:
 Escreva algum código para determinar se um número é um número Armstrong. Pense nos casos de teste:
 
 ## Retorna mensagem de sucesso quando o numero for de Armstrong
-
-* Identifica "3" corretamente, responendo "Este eh um numero de Armstrong!"
+Este eh um numero de Armstrong!
+* Identifica "3" corretamente, responendo ""
 * Identifica "153" corretamente, responendo "Este eh um numero de Armstrong!"
 
 ## Retorna mensagem de aviso quando o numero NAO for de Armstrong
