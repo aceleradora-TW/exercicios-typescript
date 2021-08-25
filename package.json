@@ -1,0 +1,29 @@
+{
+  "name": "exercicios-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "report": "open -a \"Google Chrome\" test-report.html"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ]
+  },
+  "author": "@nicoledbianchin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "jest-html-reporter": "^3.4.1"
+  }
+}
