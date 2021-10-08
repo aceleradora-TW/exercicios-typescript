@@ -8,7 +8,7 @@ function fizzBuzz(numero) {
         return "Fizz"
     } else {
         let num = String(numero)
-        console.log(numero)
+        return num
     } 
     return numero;
 }
