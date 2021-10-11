@@ -2,7 +2,7 @@
 
 O problema:
 
-Implemente o método aouraVotacao, que recebe como argumento um array com os votos de uma certa eleição, em valores numéricos, podendo ser `1`, `2` ou `3`. 
+Implemente o método apuraVotacao, que recebe como argumento um array com os votos de uma certa eleição, em valores numéricos, podendo ser `1`, `2` ou `3`. 
 
 Caso haja mais votos `1`, retorne a string `Vencedor: 1`.
 
