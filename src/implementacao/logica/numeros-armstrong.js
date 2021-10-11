@@ -9,7 +9,7 @@ function numerosArmstrong(numero) {
     let numString = numero.toString();
     let quantDigitos = numString.split("")
     let potencia = quantDigitos.length
-    let num = quantDigitos.map parseInt(quantDigitos)
+    let num = quantDigitos.map((digito) => parseInt(digito))
 
     for (let i = 0; i < potencia; i++) {
         quantDigitos[i] = (quantDigitos[i] ** potencia)
