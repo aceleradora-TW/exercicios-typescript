@@ -1,4 +1,12 @@
 function fizzBuzz(numero) {
-    return null;
+    if(numero % 3 == 0 && numero % 5 == 0) {
+        return "FizzBuzz"
+    } else if (numero % 5 == 0) {
+        return "Buzz"
+    } else if (numero % 3 == 0) {
+        return "Fizz"
+    } else {
+        return String(numero)
+    }
 }
 module.exports = fizzBuzz;

@@ -1,4 +1,4 @@
 function hello() {
-    return null;
+    return "Hello world";
 }
 module.exports = hello;
