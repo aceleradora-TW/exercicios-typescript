@@ -6,7 +6,7 @@ function contadorDeOcorrencia(texto, letra) {
 
     while (posicao != -1) {
         contador++ 
-        posicao = str.indexOf(letra, posicao++)
+        posicao = str.indexOf(letra, posicao +1)
     }
     return contador 
 }
