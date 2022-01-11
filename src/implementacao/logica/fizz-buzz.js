@@ -1,4 +1,7 @@
 function fizzBuzz(numero) {
-    return null;
+    if (numero % 3 ===0){
+    return "Fizz"
+    }  
+
 }
 module.exports = fizzBuzz;
