@@ -1,17 +1,17 @@
 function contadorDeOcorrencia(texto, letra) {
-    let contador = 0
-    let posicao = texto.indexOf(letra)
-
-    for (let contador = 0; contador < 9; contador++) {
-        console.log(contador);
+    let contador = 1000
+    //let posicao = texto.indexOf(letra)
+    for (let i = 0; i < texto.length; i++) {
+        console.log(texto[i] + " - " + i);
     }
 
     return contador
 }
+console.log(contadorDeOcorrencia("batata", "a"))
 module.exports = contadorDeOcorrencia;
 
 /*
-
+ // console.log(posicao)
    let contador = 0;
     for (let i = 0; i < texto, letra; i++) {
         console.log[i];
