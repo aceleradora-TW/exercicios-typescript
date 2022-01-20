@@ -1,8 +1,13 @@
 function criaObjeto(data) {
-    
-    return new Date(data).toString()
-    
+    const x = data.split('/')
+    let objetoData = {
+        dia: x[0],
+        mes: x[1],
+        ano: x[2]
+    }
+
+    return objetoData
+
 }
-console.log(criaObjeto("05-08-2918"))
 module.exports = criaObjeto;
 
