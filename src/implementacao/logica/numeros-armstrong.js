@@ -1,20 +1,20 @@
 function numerosArmstrong(numero) {
 
     let numeros = numero.toString().split('')
-    //let aleatoria = 0//
-    
-    for (let i = 0; i < numeros.length ; i++){ 
-        console.log( i + ' ---------- ' + numeros[i] + ' ---------- ' + numeros.length )
+    let resultado = 0
 
+    for (let i = 0; i < numeros.length; i++) {
+        resultado += numeros[i] ** numeros.length
+
+    } if (resultado === numero) {
+        return "Este eh um numero de Armstrong!"
     }
-    return "retorno"
+    return "Este nao eh um numero de Armstrong!"
 }
-console.log(numerosArmstrong(560))
+console.log(numerosArmstrong(153))
 module.exports = numerosArmstrong;
 
-// testar com for depois.
 
-    
     // let soma = 0;
 
     // let temporaria = numero;
@@ -25,6 +25,7 @@ module.exports = numerosArmstrong;
 
     //     temporaria = parseInt(temporaria / 10);
     // }
+  
     // if (soma == numero) {
     //     return 'Este eh um numero de Armstrong!';
     // }
