@@ -1,21 +1,32 @@
 function numerosArmstrong(numero) {
-
-    let resultados = 0
+   
     let numeros = numero.toString().split('')
-    
+    let resultado = 0
 
     for (let i = 0; i < numeros.length ; i++){ 
-     numeros[i] **numeros.length
-          
-    
-
+        var potencia = numeros[i] ** numeros.length
+        if(resultado += potencia){ //resultado = resultado + potencia
+            return 'Este eh um numero de Armstrong!'
+            }
+            else if (resultado -= potencia){
+        return 'Este nao eh um numero de Armstrong!'
+            }
+     } 
 }
-
-return resultados
-}
-console.log(numerosArmstrong(153))
 
 module.exports=numerosArmstrong;
+
+/*var potencia = numeros[i] ** numeros.length
+if(resultado += potencia){ //resultado = resultado + potencia
+return 'Este eh um numero de Armstrong!'
+}
+return 'Este nao eh um numero de Armstrong!'
+}
+
+
+
+
+//console.log(numerosArmstrong(153))
 
 
 
