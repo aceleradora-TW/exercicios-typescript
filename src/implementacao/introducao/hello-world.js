@@ -1,4 +1,7 @@
+const string = "Hello world";
+
 function hello() {
-    return null;
+    return string;
 }
+console.log(string);
 module.exports = hello;
