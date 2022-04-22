@@ -1,7 +1,12 @@
 function criaObjeto(data) {
     var dataCerta = data.split('/', 3);
     console.log (dataCerta)
-    return null;
+    const dataObj = {
+        dia:dataCerta[0],
+        mes:dataCerta[1],
+        ano:dataCerta[2]
+    }
+    return dataObj;
 }
-    criaObjeto("05/02/2021")
+
 module.exports = criaObjeto;
