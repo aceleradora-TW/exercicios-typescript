@@ -1,10 +1,14 @@
 function criaObjeto(data) {
     
+    // let data = [];
+    let dia = data.slice(0, 2);
+    let mes = data.slice(3, 5);
+    let ano = data.slice(6/*, 10*/);
+
     return {
-        dia: data[0][1],
-        mes: data[3][4],
-        ano: data[6][7][8][9]
-    }
-    
+        dia: dia,
+        mes: mes,
+        ano: ano
+    } 
 }
 module.exports = criaObjeto;
