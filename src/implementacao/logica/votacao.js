@@ -1,4 +1,4 @@
-function apuraVotacoa(votos) {
+function apuraVotacao(votos) {
     return null;
 }
-module.exports = apuraVotacoa;
+module.exports = apuraVotacao;
