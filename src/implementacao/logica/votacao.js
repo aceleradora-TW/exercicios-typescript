@@ -18,12 +18,11 @@ function apuraVotacao(votos) {
             return "Vencedor: 3";
         }
     }
-    else{
-        if(countNum2> countNum3){
-            return "Vencedor: 2";
-        }else{
-            return "Vencedor: 3";
-        }
+    if(countNum2> countNum3){
+        return "Vencedor: 2";
+    }
+    if(countNum3> countNum2){
+        return "Vencedor: 3";
     }
     return "Empate";
 }
