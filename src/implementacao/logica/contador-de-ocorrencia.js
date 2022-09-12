@@ -8,3 +8,12 @@ function contadorDeOcorrencia(texto, letra) {
      
 }
 module.exports = contadorDeOcorrencia;
+
+/*
+function contadorDeOcorrencia(texto, letra) {
+    //var regex = new RegExp(`/${letra}/g`);
+    return texto.match(/a/g).length;
+
+}
+console.log(contadorDeOcorrencia('banana', 'i'))
+module.exports = contadorDeOcorrencia;*/
