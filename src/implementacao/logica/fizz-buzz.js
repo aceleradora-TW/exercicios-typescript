@@ -1,12 +1,16 @@
 function fizzBuzz(numero) {
-    
-    const num = numero;
 
-    if (numero % 2 === 0) {
-        console.log("O numero eh divisivel por 2");
-    } else {
-        console.log("O numero nao eh divisivel por 2");
+    if (numero % 3 === 0 && numero % 5 === 0) {
+        return "FizzBuzz";
+    }  
+    if (numero % 3 === 0) {
+        return "Fizz";
     }
-    return null;
+    if (numero % 5 === 0) {
+        return "Buzz";
+    }
+     
+    return String(numero);
+    
 }
 module.exports = fizzBuzz;
