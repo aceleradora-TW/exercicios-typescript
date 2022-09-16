@@ -8,7 +8,7 @@ function contadorDeOcorrencia(texto, letra) {
         }
     }
     return count
-    
+
 }
 
 console.log(contadorDeOcorrencia("bolo", "o"))
