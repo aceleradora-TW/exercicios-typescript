@@ -1,4 +1,9 @@
 function contadorDeOcorrencia(texto, letra) {
-    return null;
+    if (texto) {
+        return letra
+    }
+    if (texto) {
+        return
+    }
 }
 module.exports = contadorDeOcorrencia;
