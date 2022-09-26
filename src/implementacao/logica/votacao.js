@@ -15,7 +15,6 @@ function apuraVotacao(votos) {
         else if (votos[i] === 3) {
             countVencedor3++
         }
-
     }
     if (countVencedor1 > countVencedor2 && countVencedor1 > countVencedor3) {
         return "Vencedor: 1"
