@@ -1,4 +1,4 @@
 function contadorDeOcorrencia(texto, letra) {
-    return null;
+    return texto.split(letra).length - 1;
 }
 module.exports = contadorDeOcorrencia;
