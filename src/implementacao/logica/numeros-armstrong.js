@@ -13,10 +13,7 @@ function numerosArmstrong(numero) {
     total += novoArry[k];
   }
 
-  if (numero === total) {
-    return "Este eh um numero de Armstrong!";
-  } else {
-    return"Este nao eh um numero de Armstrong!";
-  }
+  return numero===total ? "Este eh um numero de Armstrong!" : "Este nao eh um numero de Armstrong!"
+
 }
 module.exports = numerosArmstrong;
