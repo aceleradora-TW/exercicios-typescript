@@ -1,4 +1,4 @@
-function apuraVotacao(votos) {
+function apuraVotacao(votos: Array<number>) {
     return null;
 }
 module.exports = apuraVotacao;
