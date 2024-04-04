@@ -12,13 +12,8 @@ Para utilizar a trilha, clone o repositório e instale as dependências rodando 
 npm install
 ```
 
-Em seguida, crie uma nova branch para realizar a solução dos exercícios:
+Em seguida, dê um fork do repositório.
 
-```bash
-git checkout -b <nome-da-nova-branch>
-```
-
-Você poderá realizar commits apenas nessa branch, __não faça commits direto na main__.
 ## Como usar
 
 __Primeiro passo: Ambiente-se com os erros__
