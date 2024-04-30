@@ -1,7 +1,6 @@
 # Contador de ocorrências
-
-  Implemente um algoritmo que receba duas entradas: texto e busca. Este algoritmo deve retornar quantas vezes o valor
-  da busca aparece dentro do conteúdo de texto. Implemente esta lógica dentro do método `contaOcorrencias`. Veja alguns exemplos de entrada e saída:
+Crie um algoritmo que conte quantas vezes uma determinada palavra ou caractere ocorre em um texto. Este algoritmo deve ser implementado dentro do método `contaOcorrencias`, que recebe duas entradas: o texto e busca. O método deve retornar o número de ocorrências do termo de busca no texto.
+Veja alguns exemplos de entrada e saída:
 
   ## Cenários de teste
 
