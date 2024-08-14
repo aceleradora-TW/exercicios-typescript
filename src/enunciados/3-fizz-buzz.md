@@ -12,25 +12,10 @@ O problema:
 
 __Dicas:__
 
-Utilize o operador `%` para saber se um número é divisível por outro. Para saber se um número é divisível por 2, por
-exemplo, podemos usar o seguinte:
+Pesquise sobre operadores artimeticos do JS, como por exemplo operador de módulo `%`.
 
-```javascript
-int numero = 4;
+Para converter um número inteiro para String, pode-se utilizar os métodos `String()`.
 
-if (numero % 2 === 0) {
-    console.log("O numero eh divisivel por 2");
-} else {
-    console.log("O numero nao eh divisivel por 2");
-}
-```
-
-Para converter um número inteiro para String, pode-se utilizar os métodos `String()`
-
-```javascript
-const numero = String(2); // numero == "2"
-
-```
 
 ## Traduz numeros divisiveis por 3 para Fizz
 
